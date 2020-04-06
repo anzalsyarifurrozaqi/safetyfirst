@@ -39,13 +39,11 @@ public class Entity : MonoBehaviour, IEntity
     #endregion
     private bool _isBreak = false;
     private Vector2 _move;
-    private int noIntruction = 0;
     private Vector2 _direction;
 
 
     CommandProcessor _commandProcessor;
     InputReader _inputReader;
-    InstructionText instructionText;
 
     private Rigidbody2D rb;
     public float playerSpeed { get => speed; set => speed = value; }
@@ -56,12 +54,7 @@ public class Entity : MonoBehaviour, IEntity
         _inputReader = GetComponent<InputReader>();
         rb = GetComponent<Rigidbody2D>();
         rb.isKinematic = true;
-    }
-
-    private void Start()
-    {
-        //instructionText = InstructionText.Instance;
-    }   
+    } 
     private void FixedUpdate()
     {
         if (speed < 10f && !_isBreak)
@@ -118,91 +111,4 @@ public class Entity : MonoBehaviour, IEntity
         //transform.Translate(Vector2.up * Mathf.Round(speed) * Time.deltaTime);
 
     }
-
-    //void OnTriggerEnter2D(Collider2D other)
-    //{        
-    //    if (other.CompareTag("Jalur Motor"))
-    //    {
-    //        instructionText.noInstructions = 3;
-    //        Debug.Log("jalur motor");            
-    //    }
-
-    //    if (other.CompareTag("Enemy"))
-    //    {
-    //        Debug.Log("menabrak");
-    //        SceneManager.LoadScene("Main Menu");
-    //    }
-
-    //    if (other.CompareTag("instruction"))
-    //    {
-    //        //Debug.Log($"i{noIntriction}");
-    //        if (noIntruction < 3)
-    //        {
-    //            noIntruction += 1;
-    //        }
-    //        StartCoroutine(IntructionTiming());
-    //    }
-
-    //    if (other.CompareTag("finish"))
-    //    {
-    //        Debug.Log("finish");
-    //        SceneManager.LoadScene("Main Menu");
-    //    }
-    //}
-
-    //void OnTriggerStay2D(Collider2D other)
-    //{
-
-    //    float i = 0;
-    //    if (other.CompareTag("Jalur Motor"))
-    //    {
-    //        StartCoroutine(Gagal(i));
-    //    }
-    //}
-
-    //void OnTriggerExit2D(Collider2D other)
-    //{        
-    //    if (other.CompareTag("Jalur Motor"))
-    //    {
-    //        StopAllCoroutines();
-    //        instructionText.noInstructions = 0;
-    //    }
-    //}
-
-    //private IEnumerator Gagal(float limitTime)
-    //{        
-    //    while (true)
-    //    {
-    //        //Debug.Log($"limitTime{limitTime}");
-    //        if (Mathf.Round((speed * 12)) > 50)
-    //        {
-    //            if (limitTime > 3f)
-    //            {
-    //                yield return null;
-    //                Debug.Log("gagal");
-    //                //Time.timeScale = 0;
-    //                SceneManager.LoadScene("Main Menu");
-    //            }
-    //            else
-    //            {
-    //                yield return new WaitForSeconds(Time.deltaTime);
-    //                limitTime += Time.deltaTime;
-    //            }
-    //        }
-    //        else
-    //        {
-    //            yield return null;
-    //            limitTime = 0;
-    //        }
-    //    }
-
-    //}
-
-    //IEnumerator IntructionTiming()
-    //{
-    //    instructionText.noInstructions = noIntruction;
-    //    yield return new WaitForSeconds(2f);
-    //    instructionText.noInstructions = 0;        
-    //}
-
 }
