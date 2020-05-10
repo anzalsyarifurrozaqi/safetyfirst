@@ -53,8 +53,12 @@ public class Entity : MonoBehaviour, IEntity
         _commandProcessor = GetComponent<CommandProcessor>();
         _inputReader = GetComponent<InputReader>();
         rb = GetComponent<Rigidbody2D>();
-        rb.isKinematic = true;
-    } 
+        rb.isKinematic = true;        
+    }
+    private void Start()
+    {
+        Input.multiTouchEnabled = true;
+    }
     private void FixedUpdate()
     {
         if (speed < 10f && !_isBreak)
