@@ -10,7 +10,7 @@ public class MoveCommand : Command
     {
         _move = move;
         _speed = speed;
-        direction = 3.333333f;
+        direction = 2.22222f;
     }
 
     public override void Execute()

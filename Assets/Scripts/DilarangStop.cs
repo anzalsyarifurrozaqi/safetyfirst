@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class JalurLambat : MonoBehaviour, IRambu
+public class DilarangStop : MonoBehaviour
 {
     private TextManager _textManager;
-    private IEntity _entity;    
+    private IEntity _entity;
 
     private void Start()
     {
@@ -17,7 +17,7 @@ public class JalurLambat : MonoBehaviour, IRambu
         float limitTime = 0f;
         if (other.CompareTag("Player"))
         {
-            _textManager.setText("memasuki jalur lambat, tidak boleh lebih dari 50 km / jam");
+            _textManager.setText("memasuki jalur Dilarang Stop");
             StartCoroutine(gagal(limitTime));
             Debug.Log("jalur lambat");
         }
@@ -29,39 +29,39 @@ public class JalurLambat : MonoBehaviour, IRambu
         {
             _textManager.clearText();
             StopAllCoroutines();
-            Debug.Log("exit jalur lambat");
+            Debug.Log("exit jalur stop");
         }
     }
 
     public void OnTriggerStay2D(Collider2D other)
     {
-        
+
         if (other.CompareTag("Player"))
-        {            
-            Debug.Log("stay jalur lambat");
+        {
+            Debug.Log("stay jalur stop");
         }
     }
 
     private IEnumerator gagal(float limitTime)
-    {       
-        while(true)
+    {
+        while (true)
         {
-            if (Mathf.Round((_entity.playerSpeed * 12)) > 50)
+            if (Mathf.Round((_entity.playerSpeed * 12)) == 0)
             {
                 limitTime += Time.fixedDeltaTime;
-            }                
+            }
             else
             {
-                limitTime = 0f;                
+                limitTime = 0f;
             }
             yield return null;
-            Debug.Log($"limit time {limitTime}");
-            if (limitTime > 3f)
-            {                
+            //Debug.Log($"limit time {limitTime}");
+            if (limitTime > 2f)
+            {
                 Debug.Log("gagal");
                 UnityEngine.SceneManagement.SceneManager.LoadScene("Main Menu");
             }
 
-        }                        
+        }
     }
 }

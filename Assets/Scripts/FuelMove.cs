@@ -30,6 +30,6 @@ public class FuelMove : MonoBehaviour
 	{
 		//Debug.Log("touch fuel)");
 		Destroy(this.gameObject);
-		FindObjectOfType<FuelBar>().takeAmount(5);
+		FindObjectOfType<FuelBar>().takeAmount(15);
 	}
 }

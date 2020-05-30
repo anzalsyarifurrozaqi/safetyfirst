@@ -14,7 +14,7 @@ public class LampuLalulintas : MonoBehaviour, IRambu
         if (other.CompareTag("Player") && _merah)
         {
             Debug.Log("gagal");
-            //SceneManager.LoadScene("Main Menu");
+            SceneManager.LoadScene("Main Menu");
         }
     }
 
@@ -45,7 +45,7 @@ public class LampuLalulintas : MonoBehaviour, IRambu
             var vectorToTarget = _entitiy.transform.position - transform.position;
             vectorToTarget.x = 0;
             var distanceToTarget = vectorToTarget.magnitude;
-            if (distanceToTarget < 60 && _merah)
+            if (distanceToTarget < 40 && _merah)
             {
                 //Debug.Log($"distance {distanceToTarget}");
                 _textManager.setText("lampu lalu lintas didepan merah berhenti sebelum garis");

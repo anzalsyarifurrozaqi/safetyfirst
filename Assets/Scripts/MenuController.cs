@@ -22,4 +22,19 @@ public class MenuController : MonoBehaviour
     {
         SceneManager.LoadScene("Main Menu");
     }
+
+    public void OnLevel1()
+    {
+        SceneManager.LoadScene("Level 1");
+    }
+
+    public void OnLevel2()
+    {
+        SceneManager.LoadScene("Level 2");
+    }
+
+    public void OnLevel3()
+    {
+        SceneManager.LoadScene("Level 3");
+    }
 }

@@ -55,10 +55,7 @@ public class Entity : MonoBehaviour, IEntity
         rb = GetComponent<Rigidbody2D>();
         rb.isKinematic = true;        
     }
-    private void Start()
-    {
-        Input.multiTouchEnabled = true;
-    }
+
     private void FixedUpdate()
     {
         if (speed < 10f && !_isBreak)
@@ -114,5 +111,18 @@ public class Entity : MonoBehaviour, IEntity
         speedMeterText.text = $"{textSpeedMeter.ToString()} Km/h";
         //transform.Translate(Vector2.up * Mathf.Round(speed) * Time.deltaTime);
 
+    }
+
+    private void OnTriggerEnter2D(Collider2D collider)
+    {
+        if (collider.CompareTag("Enemy"))
+        {
+            Debug.Log("menabrak");
+            SceneManager.LoadScene("Main Menu");
+        }
+        if (collider.CompareTag("finish"))
+        {
+            SceneManager.LoadScene("Main Menu");
+        }
     }
 }

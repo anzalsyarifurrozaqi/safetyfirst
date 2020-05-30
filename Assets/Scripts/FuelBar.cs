@@ -19,10 +19,14 @@ public class FuelBar : MonoBehaviour
         FuelBarImg.fillAmount = bar / 100;
         if(FindObjectOfType<Entity>().speed > 0 && (bar/max) > 0 )
             bar -= (0.01f * FindObjectOfType<Entity>().speed);
+
+        if (bar <= 0)
+            FindObjectOfType<Entity>().speed = 0;
     }
 
     public void takeAmount(float val)
     {
-        bar += val;
+        if (bar < max)
+            bar += val;
     }    
 }

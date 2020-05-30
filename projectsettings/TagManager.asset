@@ -10,6 +10,7 @@ TagManager:
   - Jalur Motor
   - instruction
   - finish
+  - rintangan
   layers:
   - Default
   - TransparentFX

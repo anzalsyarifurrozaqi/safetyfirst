@@ -16,7 +16,7 @@ public class Fuels : MonoBehaviour
     }   
     private void spawnFuel()
     {
-        Debug.Log(screenBounds);
+        //Debug.Log(screenBounds);
         GameObject a = Instantiate(fuel) as GameObject;
         a.transform.position = new Vector2(Random.Range(-screenBounds.x, screenBounds.x), screenBounds.y + 10);
     }

@@ -76,7 +76,7 @@ public class InputReader : MonoBehaviour
             Debug.Log("Double tap..");
             if (touch.position.x > Screen.width / 2)
             {
-                Debug.Log("Right click");
+                //Debug.Log("Right click");
                 var direction = new Vector2(1, 0);
                 return direction;
             }
@@ -110,7 +110,7 @@ public class InputReader : MonoBehaviour
                 swipeDelta = touch.position - startTouch;
         }
 
-        if (swipeDelta.magnitude > 100)
+        if (swipeDelta.magnitude > 50)
         {
             float x = swipeDelta.x;
             float y = swipeDelta.y;
@@ -121,7 +121,7 @@ public class InputReader : MonoBehaviour
                 {
                     if (touch.phase == TouchPhase.Stationary)
                     {
-                        Debug.Log("hold down");
+                        //Debug.Log("hold down");
                         return true;
                     }
                 }                
