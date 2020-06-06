@@ -7578,7 +7578,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &796182620
 Transform:
   m_ObjectHideFlags: 0
@@ -9854,10 +9854,35 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2643177258943788439, guid: 2ee61e956fab2924dbe02f05b8b4f08f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101477965503633031, guid: 2ee61e956fab2924dbe02f05b8b4f08f,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101477965503633031, guid: 2ee61e956fab2924dbe02f05b8b4f08f,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101477965503633031, guid: 2ee61e956fab2924dbe02f05b8b4f08f,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7537939523806806156, guid: 2ee61e956fab2924dbe02f05b8b4f08f,
         type: 3}
       propertyPath: m_Name
       value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 7537939523806806156, guid: 2ee61e956fab2924dbe02f05b8b4f08f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7537939523806806160, guid: 2ee61e956fab2924dbe02f05b8b4f08f,
         type: 3}

@@ -59,7 +59,12 @@ public class DilarangStop : MonoBehaviour
             if (limitTime > 2f)
             {
                 Debug.Log("gagal");
-                UnityEngine.SceneManagement.SceneManager.LoadScene("Main Menu");
+                GameObject newObject = new GameObject();
+                newObject.AddComponent<Panel>();
+                Panel panel = newObject.GetComponent<Panel>();
+                panel.SetText("GAGAL", "DILARANG STOP");
+                panel.openPanel();
+                StopAllCoroutines();
             }
 
         }

@@ -63,9 +63,7 @@ public class Entity : MonoBehaviour, IEntity
         int i = 0;
         while (i < Input.touchCount)
         {
-                  
-           
-
+                             
             _isBreak = _inputReader.ReadBreak(Input.GetTouch(i));
             if (_isBreak)
             {
@@ -118,11 +116,19 @@ public class Entity : MonoBehaviour, IEntity
         if (collider.CompareTag("Enemy"))
         {
             Debug.Log("menabrak");
-            SceneManager.LoadScene("Main Menu");
+            GameObject newObject = new GameObject();
+            newObject.AddComponent<Panel>();
+            Panel panel = newObject.GetComponent<Panel>();
+            panel.SetText("GAGAL", "MENABRAK KENDARAAN LAIN");
+            panel.openPanel();
         }
         if (collider.CompareTag("finish"))
         {
-            SceneManager.LoadScene("Main Menu");
+            GameObject newObject = new GameObject();
+            newObject.AddComponent<Panel>();
+            Panel panel = newObject.GetComponent<Panel>();
+            panel.SetText("SUKSES");
+            panel.openPanel();
         }
     }
 }

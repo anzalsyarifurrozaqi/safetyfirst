@@ -14,7 +14,11 @@ public class LampuLalulintas : MonoBehaviour, IRambu
         if (other.CompareTag("Player") && _merah)
         {
             Debug.Log("gagal");
-            SceneManager.LoadScene("Main Menu");
+            GameObject newObject = new GameObject();
+            newObject.AddComponent<Panel>();
+            Panel panel = newObject.GetComponent<Panel>();
+            panel.SetText("GAGAL", "MENOROBOS LAMPU MERAH");
+            panel.openPanel();
         }
     }
 

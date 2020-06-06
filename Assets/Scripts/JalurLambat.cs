@@ -59,7 +59,12 @@ public class JalurLambat : MonoBehaviour, IRambu
             if (limitTime > 3f)
             {                
                 Debug.Log("gagal");
-                UnityEngine.SceneManagement.SceneManager.LoadScene("Main Menu");
+                GameObject newObject = new GameObject();
+                newObject.AddComponent<Panel>();
+                Panel panel = newObject.GetComponent<Panel>();
+                panel.SetText("GAGAL", "KECEPATAN TIDAK BOLEH LEBIH DARI 50 KM / JAM");
+                panel.openPanel();
+                StopAllCoroutines();
             }
 
         }                        

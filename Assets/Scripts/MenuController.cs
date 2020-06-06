@@ -19,8 +19,9 @@ public class MenuController : MonoBehaviour
     }
 
     public void OnMain()
-    {
+    {        
         SceneManager.LoadScene("Main Menu");
+        Time.timeScale = 1;        
     }
 
     public void OnLevel1()
