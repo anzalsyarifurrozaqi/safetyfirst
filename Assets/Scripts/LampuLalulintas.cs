@@ -8,17 +8,19 @@ public class LampuLalulintas : MonoBehaviour, IRambu
     protected IEntity _entitiy;
     private bool _merah = true;
     private TextManager _textManager;
-    
+    PanelRintangan panelRintangan;
+
+
     public void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player") && _merah)
         {
-            Debug.Log("gagal");
+            Debug.Log("gagal");            
             GameObject newObject = new GameObject();
             newObject.AddComponent<Panel>();
             Panel panel = newObject.GetComponent<Panel>();
-            panel.SetText("GAGAL", "MENOROBOS LAMPU MERAH");
-            panel.openPanel();
+            panel.SetText("GAGAL", "MENEROBOS LAMPU MERAH");
+            panel.openPanel();            
         }
     }
 
@@ -27,7 +29,8 @@ public class LampuLalulintas : MonoBehaviour, IRambu
         if (other.CompareTag("Player"))
         {
             StopAllCoroutines();
-            _textManager.clearText();
+            //_textManager.clearText();
+            panelRintangan.closePanel();
         }
     }
 
@@ -40,6 +43,9 @@ public class LampuLalulintas : MonoBehaviour, IRambu
     {
         _entitiy = Entity.Instance;
         _textManager = new TextManager();
+        GameObject rintanganObject = new GameObject();
+        rintanganObject.AddComponent<PanelRintangan>();
+        panelRintangan = rintanganObject.GetComponent<PanelRintangan>();        
     }
 
     private void Update()
@@ -52,9 +58,12 @@ public class LampuLalulintas : MonoBehaviour, IRambu
             if (distanceToTarget < 40 && _merah)
             {
                 //Debug.Log($"distance {distanceToTarget}");
-                _textManager.setText("lampu lalu lintas didepan merah berhenti sebelum garis");
+                //_textManager.setText("lampu lalu lintas didepan merah berhenti sebelum garis");
+                panelRintangan.SetText("lampu lalu lintas didepan merah, jalan pelan-pelan dan berhenti sebelum garis");
+                panelRintangan.openPanel();
                 if (_entitiy.playerSpeed < 0 && _merah)
                 {
+                    panelRintangan.SetText("tunggu hingga lampu hijau");
                     StartCoroutine(ubahKEHijau());
                 }
             }
@@ -67,7 +76,8 @@ public class LampuLalulintas : MonoBehaviour, IRambu
         {
             yield return new WaitForSeconds(5f);
             _merah = false;
-            _textManager.setText("Lampu hijau silahkan jalan");
+            //_textManager.setText("Lampu hijau silahkan jalan");
+            panelRintangan.SetText("Lampu hijau silahkan jalan");
         }
 
     }

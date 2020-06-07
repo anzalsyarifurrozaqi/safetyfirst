@@ -129,6 +129,6 @@ public class Entity : MonoBehaviour, IEntity
             Panel panel = newObject.GetComponent<Panel>();
             panel.SetText("SUKSES");
             panel.openPanel();
-        }
+        }        
     }
 }

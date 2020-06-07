@@ -110,7 +110,7 @@ public class InputReader : MonoBehaviour
                 swipeDelta = touch.position - startTouch;
         }
 
-        if (swipeDelta.magnitude > 50)
+        if (swipeDelta.magnitude > 30)
         {
             float x = swipeDelta.x;
             float y = swipeDelta.y;

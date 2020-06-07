@@ -5,19 +5,25 @@ using UnityEngine;
 public class JalurLambat : MonoBehaviour, IRambu
 {
     private TextManager _textManager;
-    private IEntity _entity;    
+    private IEntity _entity;
+    PanelRintangan panelRintangan;
 
     private void Start()
     {
         _textManager = new TextManager();
         _entity = Entity.Instance;
+        GameObject rintanganObject = new GameObject();
+        rintanganObject.AddComponent<PanelRintangan>();
+        panelRintangan = rintanganObject.GetComponent<PanelRintangan>();
     }
     public void OnTriggerEnter2D(Collider2D other)
     {
         float limitTime = 0f;
         if (other.CompareTag("Player"))
         {
-            _textManager.setText("memasuki jalur lambat, tidak boleh lebih dari 50 km / jam");
+            //_textManager.setText("memasuki jalur lambat, tidak boleh lebih dari 50 km / jam");
+            panelRintangan.SetText("memasuki jalur lambat, tidak boleh lebih dari 50 km / jam");
+            panelRintangan.openPanel();
             StartCoroutine(gagal(limitTime));
             Debug.Log("jalur lambat");
         }
@@ -27,7 +33,8 @@ public class JalurLambat : MonoBehaviour, IRambu
     {
         if (other.CompareTag("Player"))
         {
-            _textManager.clearText();
+            //_textManager.clearText();
+            panelRintangan.closePanel();
             StopAllCoroutines();
             Debug.Log("exit jalur lambat");
         }
