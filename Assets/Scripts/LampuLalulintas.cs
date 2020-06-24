@@ -9,18 +9,19 @@ public class LampuLalulintas : MonoBehaviour, IRambu
     private bool _merah = true;
     private TextManager _textManager;
     PanelRintangan panelRintangan;
-
+    LampuPanel lampuPanel;
 
     public void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player") && _merah)
         {
-            Debug.Log("gagal");            
+            Debug.Log("gagal");
+            lampuPanel.closeLampu();
             GameObject newObject = new GameObject();
             newObject.AddComponent<Panel>();
             Panel panel = newObject.GetComponent<Panel>();
             panel.SetText("GAGAL", "MENEROBOS LAMPU MERAH");
-            panel.openPanel();            
+            panel.openPanel();
         }
     }
 
@@ -31,12 +32,13 @@ public class LampuLalulintas : MonoBehaviour, IRambu
             StopAllCoroutines();
             //_textManager.clearText();
             panelRintangan.closePanel();
+            lampuPanel.closeLampu();
         }
     }
 
     public void OnTriggerStay2D(Collider2D other)
     {
-        
+
     }
 
     private void Start()
@@ -45,7 +47,10 @@ public class LampuLalulintas : MonoBehaviour, IRambu
         _textManager = new TextManager();
         GameObject rintanganObject = new GameObject();
         rintanganObject.AddComponent<PanelRintangan>();
-        panelRintangan = rintanganObject.GetComponent<PanelRintangan>();        
+        panelRintangan = rintanganObject.GetComponent<PanelRintangan>();
+        GameObject lampuObject = new GameObject();
+        lampuObject.AddComponent<LampuPanel>();
+        lampuPanel = lampuObject.GetComponent<LampuPanel>();
     }
 
     private void Update()
@@ -59,6 +64,8 @@ public class LampuLalulintas : MonoBehaviour, IRambu
             {
                 //Debug.Log($"distance {distanceToTarget}");
                 //_textManager.setText("lampu lalu lintas didepan merah berhenti sebelum garis");
+                lampuPanel.displayLampu();
+                lampuPanel.SetColor(Color.red);
                 panelRintangan.SetText("lampu lalu lintas didepan merah, jalan pelan-pelan dan berhenti sebelum garis");
                 panelRintangan.openPanel();
                 if (_entitiy.playerSpeed < 0 && _merah)
@@ -74,7 +81,13 @@ public class LampuLalulintas : MonoBehaviour, IRambu
     {
         while (true)
         {
+            if (_merah == true)
+            {
+                yield return null;
+                lampuPanel.SetColor(Color.yellow);
+            }
             yield return new WaitForSeconds(5f);
+            lampuPanel.SetColor(Color.green);
             _merah = false;
             //_textManager.setText("Lampu hijau silahkan jalan");
             panelRintangan.SetText("Lampu hijau silahkan jalan");
