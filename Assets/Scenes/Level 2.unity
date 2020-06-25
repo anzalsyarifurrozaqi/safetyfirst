@@ -141,7 +141,7 @@ Transform:
   m_LocalScale: {x: 1.2939324, y: 1.2939346, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 120
+  m_RootOrder: 114
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &12702517
 SpriteRenderer:
@@ -265,85 +265,6 @@ SpriteRenderer:
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 10.24, y: 2.89}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!1 &21029894
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 21029895}
-  - component: {fileID: 21029896}
-  m_Layer: 0
-  m_Name: Lampu Apill dan Trotoar_2 (4)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &21029895
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 21029894}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: -1}
-  m_LocalPosition: {x: -601.9768, y: -57.052383, z: 0}
-  m_LocalScale: {x: 1.1850566, y: 1.1850568, z: 0}
-  m_Children: []
-  m_Father: {fileID: 1396993052}
-  m_RootOrder: 91
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 270}
---- !u!212 &21029896
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 21029894}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 1
-  m_Sprite: {fileID: 21300004, guid: 24b246ee1f62ab34683ad7369b7ca19f, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 55.62, y: 63.03}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -536,7 +457,7 @@ Transform:
   m_LocalScale: {x: 1.2939324, y: 1.2939346, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 93
+  m_RootOrder: 89
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &38301161
 SpriteRenderer:
@@ -615,7 +536,7 @@ Transform:
   m_LocalScale: {x: 1.2939324, y: 1.2939346, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 54
+  m_RootOrder: 52
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &39319634
 SpriteRenderer:
@@ -773,7 +694,7 @@ Transform:
   m_LocalScale: {x: 1.293933, y: 1.2939351, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 87
+  m_RootOrder: 85
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &73669635
 SpriteRenderer:
@@ -931,7 +852,7 @@ Transform:
   m_LocalScale: {x: 1.2939324, y: 1.2939346, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 101
+  m_RootOrder: 97
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &94653320
 SpriteRenderer:
@@ -1376,85 +1297,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &137255030
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 137255031}
-  - component: {fileID: 137255032}
-  m_Layer: 0
-  m_Name: Lampu Apill dan Trotoar_2 (11)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &137255031
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 137255030}
-  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -1005.2534, y: -28.50166, z: 0}
-  m_LocalScale: {x: 1.1850535, y: 1.1850555, z: 0}
-  m_Children: []
-  m_Father: {fileID: 1396993052}
-  m_RootOrder: 136
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &137255032
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 137255030}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 1
-  m_Sprite: {fileID: 21300004, guid: 24b246ee1f62ab34683ad7369b7ca19f, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 55.62, y: 63.03}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &146715272
 GameObject:
   m_ObjectHideFlags: 0
@@ -1642,7 +1484,7 @@ Transform:
   m_LocalScale: {x: 1.2939324, y: 1.2939346, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 65
+  m_RootOrder: 63
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &177927820
 SpriteRenderer:
@@ -1800,7 +1642,7 @@ Transform:
   m_LocalScale: {x: 1.2939324, y: 1.2939346, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 71
+  m_RootOrder: 69
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &191498620
 SpriteRenderer:
@@ -1958,7 +1800,7 @@ Transform:
   m_LocalScale: {x: 1.2939324, y: 1.2939346, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 106
+  m_RootOrder: 102
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &213492445
 SpriteRenderer:
@@ -2415,85 +2257,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &291202962
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 291202963}
-  - component: {fileID: 291202964}
-  m_Layer: 0
-  m_Name: Lampu Apill dan Trotoar_2 (8)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &291202963
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 291202962}
-  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -1005.2534, y: -28.50166, z: 0}
-  m_LocalScale: {x: 1.1850535, y: 1.1850555, z: 0}
-  m_Children: []
-  m_Father: {fileID: 1396993052}
-  m_RootOrder: 115
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &291202964
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 291202962}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 1
-  m_Sprite: {fileID: 21300004, guid: 24b246ee1f62ab34683ad7369b7ca19f, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 55.62, y: 63.03}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &293700494
 GameObject:
   m_ObjectHideFlags: 0
@@ -2523,7 +2286,7 @@ Transform:
   m_LocalScale: {x: 1.2939324, y: 1.2939346, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 95
+  m_RootOrder: 91
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &293700496
 SpriteRenderer:
@@ -3076,7 +2839,7 @@ Transform:
   m_LocalScale: {x: 1.2939324, y: 1.2939346, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 55
+  m_RootOrder: 53
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &341766871
 SpriteRenderer:
@@ -3555,7 +3318,7 @@ Transform:
   m_LocalScale: {x: 1.2939324, y: 1.2939346, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 59
+  m_RootOrder: 57
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &412271902
 SpriteRenderer:
@@ -3713,7 +3476,7 @@ Transform:
   m_LocalScale: {x: 1.2939324, y: 1.2939346, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 107
+  m_RootOrder: 103
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &422353280
 SpriteRenderer:
@@ -3956,7 +3719,7 @@ Transform:
   m_LocalScale: {x: 1.1850566, y: 1.1850568, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 90
+  m_RootOrder: 88
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!212 &464742647
 SpriteRenderer:
@@ -3965,85 +3728,6 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 464742645}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 1
-  m_Sprite: {fileID: 21300004, guid: 24b246ee1f62ab34683ad7369b7ca19f, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 55.62, y: 63.03}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!1 &471499719
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 471499720}
-  - component: {fileID: 471499721}
-  m_Layer: 0
-  m_Name: Lampu Apill dan Trotoar_2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &471499720
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 471499719}
-  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -517.24634, y: -29.374601, z: 0}
-  m_LocalScale: {x: 1.1850535, y: 1.1850555, z: 0}
-  m_Children: []
-  m_Father: {fileID: 1396993052}
-  m_RootOrder: 50
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &471499721
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 471499719}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -4193,7 +3877,7 @@ Transform:
   m_LocalScale: {x: 1.185056, y: 1.1850561, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 113
+  m_RootOrder: 109
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!212 &499710872
 SpriteRenderer:
@@ -4496,7 +4180,7 @@ Transform:
   m_LocalScale: {x: 1.2939324, y: 1.2939346, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 132
+  m_RootOrder: 126
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &512099510
 SpriteRenderer:
@@ -4575,7 +4259,7 @@ Transform:
   m_LocalScale: {x: 1.293933, y: 1.2939351, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 83
+  m_RootOrder: 81
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &513167741
 SpriteRenderer:
@@ -4625,164 +4309,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &531779261
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 531779262}
-  - component: {fileID: 531779263}
-  m_Layer: 0
-  m_Name: Lampu Apill dan Trotoar_2 (5)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &531779262
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 531779261}
-  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -517.2464, y: -29.374601, z: 0}
-  m_LocalScale: {x: 1.185054, y: 1.185056, z: 0}
-  m_Children: []
-  m_Father: {fileID: 1396993052}
-  m_RootOrder: 92
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &531779263
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 531779261}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 1
-  m_Sprite: {fileID: 21300004, guid: 24b246ee1f62ab34683ad7369b7ca19f, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 55.62, y: 63.03}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!1 &540382859
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 540382860}
-  - component: {fileID: 540382861}
-  m_Layer: 0
-  m_Name: Lampu Apill dan Trotoar_2 (10)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &540382860
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 540382859}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: -1}
-  m_LocalPosition: {x: -1089.9836, y: -56.179394, z: 0}
-  m_LocalScale: {x: 1.185056, y: 1.1850561, z: 0}
-  m_Children: []
-  m_Father: {fileID: 1396993052}
-  m_RootOrder: 135
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 270}
---- !u!212 &540382861
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 540382859}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 1
-  m_Sprite: {fileID: 21300004, guid: 24b246ee1f62ab34683ad7369b7ca19f, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 55.62, y: 63.03}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &544211399
 GameObject:
   m_ObjectHideFlags: 0
@@ -4812,7 +4338,7 @@ Transform:
   m_LocalScale: {x: 1.2939324, y: 1.2939346, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 68
+  m_RootOrder: 66
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &544211401
 SpriteRenderer:
@@ -4857,6 +4383,85 @@ SpriteRenderer:
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 27.95, y: 26.55}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!1 &548874658
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 548874659}
+  - component: {fileID: 548874660}
+  m_Layer: 0
+  m_Name: Lampu Apill dan Trotoar_0 (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &548874659
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 548874658}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -2133.8, y: -55, z: -0}
+  m_LocalScale: {x: 1.3822145, y: 1.3822168, z: 0}
+  m_Children: []
+  m_Father: {fileID: 858933350289800148}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &548874660
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 548874658}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 4
+  m_Sprite: {fileID: 21300000, guid: 24b246ee1f62ab34683ad7369b7ca19f, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 7.5499997, y: 40.25}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -4970,7 +4575,7 @@ Transform:
   m_LocalScale: {x: 1.2939324, y: 1.2939346, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 122
+  m_RootOrder: 116
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &586014045
 SpriteRenderer:
@@ -5245,7 +4850,7 @@ Transform:
   m_LocalScale: {x: 1.293933, y: 1.2939351, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 86
+  m_RootOrder: 84
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &631727631
 SpriteRenderer:
@@ -5324,7 +4929,7 @@ Transform:
   m_LocalScale: {x: 1.2939324, y: 1.2939346, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 66
+  m_RootOrder: 64
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &658579097
 SpriteRenderer:
@@ -5482,7 +5087,7 @@ Transform:
   m_LocalScale: {x: 1.2939324, y: 1.2939346, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 72
+  m_RootOrder: 70
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &665160292
 SpriteRenderer:
@@ -5640,7 +5245,7 @@ Transform:
   m_LocalScale: {x: 1.2939324, y: 1.2939346, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 123
+  m_RootOrder: 117
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &684649983
 SpriteRenderer:
@@ -5843,7 +5448,7 @@ Transform:
   m_LocalScale: {x: 1.2939324, y: 1.2939346, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 119
+  m_RootOrder: 113
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &706195228
 SpriteRenderer:
@@ -5922,7 +5527,7 @@ Transform:
   m_LocalScale: {x: 1.2939324, y: 1.2939346, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 62
+  m_RootOrder: 60
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &712532073
 SpriteRenderer:
@@ -6080,7 +5685,7 @@ Transform:
   m_LocalScale: {x: 1.2939324, y: 1.2939346, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 70
+  m_RootOrder: 68
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &735435817
 SpriteRenderer:
@@ -6159,7 +5764,7 @@ Transform:
   m_LocalScale: {x: 1.2939324, y: 1.2939346, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 67
+  m_RootOrder: 65
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &743965962
 SpriteRenderer:
@@ -6633,7 +6238,7 @@ Transform:
   m_LocalScale: {x: 1.2939324, y: 1.2939346, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 96
+  m_RootOrder: 92
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &849782350
 SpriteRenderer:
@@ -6712,7 +6317,7 @@ Transform:
   m_LocalScale: {x: 1.2939324, y: 1.2939346, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 105
+  m_RootOrder: 101
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &852882994
 SpriteRenderer:
@@ -6870,7 +6475,7 @@ Transform:
   m_LocalScale: {x: 1.2939324, y: 1.2939346, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 128
+  m_RootOrder: 122
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &885207872
 SpriteRenderer:
@@ -7255,7 +6860,7 @@ Transform:
   m_LocalScale: {x: 1.293933, y: 1.2939351, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 88
+  m_RootOrder: 86
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &930648903
 SpriteRenderer:
@@ -7413,7 +7018,7 @@ Transform:
   m_LocalScale: {x: 1.2939324, y: 1.2939346, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 98
+  m_RootOrder: 94
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &940269414
 SpriteRenderer:
@@ -7887,7 +7492,7 @@ Transform:
   m_LocalScale: {x: 1.185056, y: 1.1850561, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 134
+  m_RootOrder: 128
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!212 &978484537
 SpriteRenderer:
@@ -7966,7 +7571,7 @@ Transform:
   m_LocalScale: {x: 1.293933, y: 1.2939351, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 77
+  m_RootOrder: 75
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &979455497
 SpriteRenderer:
@@ -8282,7 +7887,7 @@ Transform:
   m_LocalScale: {x: 1.2939324, y: 1.2939346, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 57
+  m_RootOrder: 55
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1005376555
 SpriteRenderer:
@@ -8327,6 +7932,85 @@ SpriteRenderer:
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 27.95, y: 26.55}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!1 &1022951335
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1022951336}
+  - component: {fileID: 1022951337}
+  m_Layer: 0
+  m_Name: Lampu Apill dan Trotoar_0 (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1022951336
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1022951335}
+  m_LocalRotation: {x: -0, y: -0, z: -0.000000119209275, w: -1}
+  m_LocalPosition: {x: -1765, y: -63.2, z: 0}
+  m_LocalScale: {x: 1.3822145, y: 1.3822168, z: 0}
+  m_Children: []
+  m_Father: {fileID: 858933350289800148}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1022951337
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1022951335}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 4
+  m_Sprite: {fileID: 21300000, guid: 24b246ee1f62ab34683ad7369b7ca19f, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 7.5499997, y: 40.25}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -8633,7 +8317,7 @@ Transform:
   m_LocalScale: {x: 1.2939324, y: 1.2939346, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 56
+  m_RootOrder: 54
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1040981288
 SpriteRenderer:
@@ -8712,7 +8396,7 @@ Transform:
   m_LocalScale: {x: 1.2939324, y: 1.2939346, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 118
+  m_RootOrder: 112
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1041681006
 SpriteRenderer:
@@ -8791,7 +8475,7 @@ Transform:
   m_LocalScale: {x: 1.293933, y: 1.2939351, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 84
+  m_RootOrder: 82
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1047858937
 SpriteRenderer:
@@ -8949,7 +8633,7 @@ Transform:
   m_LocalScale: {x: 1.2939324, y: 1.2939346, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 69
+  m_RootOrder: 67
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1076508553
 SpriteRenderer:
@@ -9186,7 +8870,7 @@ Transform:
   m_LocalScale: {x: 1.2939324, y: 1.2939346, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 130
+  m_RootOrder: 124
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1110433484
 SpriteRenderer:
@@ -9484,7 +9168,7 @@ Transform:
   m_LocalScale: {x: 1.2939324, y: 1.2939346, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 116
+  m_RootOrder: 110
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1184426089
 SpriteRenderer:
@@ -9563,7 +9247,7 @@ Transform:
   m_LocalScale: {x: 1.293933, y: 1.2939351, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 85
+  m_RootOrder: 83
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1191446949
 SpriteRenderer:
@@ -10187,7 +9871,7 @@ Transform:
   m_LocalScale: {x: 1.2939324, y: 1.2939346, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 125
+  m_RootOrder: 119
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1253757390
 SpriteRenderer:
@@ -10266,7 +9950,7 @@ Transform:
   m_LocalScale: {x: 1.293933, y: 1.2939351, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 79
+  m_RootOrder: 77
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1253980726
 SpriteRenderer:
@@ -10424,7 +10108,7 @@ Transform:
   m_LocalScale: {x: 1.2939324, y: 1.2939346, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 112
+  m_RootOrder: 108
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1281997702
 SpriteRenderer:
@@ -10503,7 +10187,7 @@ Transform:
   m_LocalScale: {x: 1.293933, y: 1.2939351, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 82
+  m_RootOrder: 80
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1285903632
 SpriteRenderer:
@@ -10582,7 +10266,7 @@ Transform:
   m_LocalScale: {x: 1.2939324, y: 1.2939346, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 126
+  m_RootOrder: 120
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1313559952
 SpriteRenderer:
@@ -10661,7 +10345,7 @@ Transform:
   m_LocalScale: {x: 1.2939324, y: 1.2939346, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 104
+  m_RootOrder: 100
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1318534809
 SpriteRenderer:
@@ -10819,7 +10503,7 @@ Transform:
   m_LocalScale: {x: 1.2939324, y: 1.2939346, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 102
+  m_RootOrder: 98
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1348508265
 SpriteRenderer:
@@ -11182,8 +10866,6 @@ Transform:
   - {fileID: 1063110093}
   - {fileID: 314023198}
   - {fileID: 948700108}
-  - {fileID: 2004078317}
-  - {fileID: 471499720}
   - {fileID: 1715850293}
   - {fileID: 1501544629}
   - {fileID: 1498944497}
@@ -11224,8 +10906,6 @@ Transform:
   - {fileID: 930648902}
   - {fileID: 1777508238}
   - {fileID: 464742646}
-  - {fileID: 21029895}
-  - {fileID: 531779262}
   - {fileID: 38301160}
   - {fileID: 1741507142}
   - {fileID: 293700495}
@@ -11247,8 +10927,6 @@ Transform:
   - {fileID: 1790320478}
   - {fileID: 1281997701}
   - {fileID: 499710871}
-  - {fileID: 1983971393}
-  - {fileID: 291202963}
   - {fileID: 1184426088}
   - {fileID: 2027652820}
   - {fileID: 1041681005}
@@ -11268,8 +10946,6 @@ Transform:
   - {fileID: 512099509}
   - {fileID: 1556074475}
   - {fileID: 978484536}
-  - {fileID: 540382860}
-  - {fileID: 137255031}
   - {fileID: 1919718029}
   m_Father: {fileID: 1829524329}
   m_RootOrder: 0
@@ -11303,7 +10979,7 @@ Transform:
   m_LocalScale: {x: 1.2939324, y: 1.2939346, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 99
+  m_RootOrder: 95
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1418661442
 SpriteRenderer:
@@ -11461,7 +11137,7 @@ Transform:
   m_LocalScale: {x: 1.293933, y: 1.2939351, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 74
+  m_RootOrder: 72
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1423840091
 SpriteRenderer:
@@ -11540,7 +11216,7 @@ Transform:
   m_LocalScale: {x: 1.2939324, y: 1.2939346, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 100
+  m_RootOrder: 96
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1433360871
 SpriteRenderer:
@@ -11698,7 +11374,7 @@ Transform:
   m_LocalScale: {x: 1.2939324, y: 1.2939346, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 63
+  m_RootOrder: 61
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1442032470
 SpriteRenderer:
@@ -11777,7 +11453,7 @@ Transform:
   m_LocalScale: {x: 1.2939324, y: 1.2939346, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 109
+  m_RootOrder: 105
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1453316778
 SpriteRenderer:
@@ -12004,7 +11680,7 @@ Transform:
   m_LocalScale: {x: 1.2939324, y: 1.2939346, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 127
+  m_RootOrder: 121
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1485493104
 SpriteRenderer:
@@ -12083,7 +11759,7 @@ Transform:
   m_LocalScale: {x: 1.2939324, y: 1.2939346, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 64
+  m_RootOrder: 62
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1487839247
 SpriteRenderer:
@@ -12241,7 +11917,7 @@ Transform:
   m_LocalScale: {x: 1.293933, y: 1.2939351, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 81
+  m_RootOrder: 79
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1495445460
 SpriteRenderer:
@@ -12320,7 +11996,7 @@ Transform:
   m_LocalScale: {x: 1.2939324, y: 1.2939346, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 53
+  m_RootOrder: 51
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1498944498
 SpriteRenderer:
@@ -12399,7 +12075,7 @@ Transform:
   m_LocalScale: {x: 1.2939324, y: 1.2939346, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 52
+  m_RootOrder: 50
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1501544630
 SpriteRenderer:
@@ -12844,7 +12520,7 @@ Transform:
   m_LocalScale: {x: 1.2939324, y: 1.2939346, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 124
+  m_RootOrder: 118
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1542479782
 SpriteRenderer:
@@ -13002,7 +12678,7 @@ Transform:
   m_LocalScale: {x: 1.2939324, y: 1.2939346, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 133
+  m_RootOrder: 127
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1556074476
 SpriteRenderer:
@@ -13160,7 +12836,7 @@ Transform:
   m_LocalScale: {x: 1.2939324, y: 1.2939346, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 60
+  m_RootOrder: 58
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1560751601
 SpriteRenderer:
@@ -13528,7 +13204,7 @@ Transform:
   m_LocalScale: {x: 1.2939324, y: 1.2939346, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 58
+  m_RootOrder: 56
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1624613991
 SpriteRenderer:
@@ -13844,7 +13520,7 @@ Transform:
   m_LocalScale: {x: 1.2939324, y: 1.2939346, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 97
+  m_RootOrder: 93
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1675839267
 SpriteRenderer:
@@ -14052,6 +13728,85 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1696267168
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1696267169}
+  - component: {fileID: 1696267170}
+  m_Layer: 0
+  m_Name: Lampu Apill dan Trotoar_0 (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1696267169
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1696267168}
+  m_LocalRotation: {x: -0, y: -0, z: -0.000000119209275, w: -1}
+  m_LocalPosition: {x: -2253, y: -62.6, z: 0}
+  m_LocalScale: {x: 1.3822145, y: 1.3822168, z: 0}
+  m_Children: []
+  m_Father: {fileID: 858933350289800148}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1696267170
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1696267168}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 4
+  m_Sprite: {fileID: 21300000, guid: 24b246ee1f62ab34683ad7369b7ca19f, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 7.5499997, y: 40.25}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1001 &1700838296
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14150,7 +13905,7 @@ Transform:
   m_LocalScale: {x: 1.2939324, y: 1.2939346, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 51
+  m_RootOrder: 49
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1715850294
 SpriteRenderer:
@@ -14229,7 +13984,7 @@ Transform:
   m_LocalScale: {x: 1.2939324, y: 1.2939346, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 103
+  m_RootOrder: 99
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1738271362
 SpriteRenderer:
@@ -14387,7 +14142,7 @@ Transform:
   m_LocalScale: {x: 1.2939324, y: 1.2939346, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 94
+  m_RootOrder: 90
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1741507143
 SpriteRenderer:
@@ -14782,7 +14537,7 @@ Transform:
   m_LocalScale: {x: 1.293933, y: 1.2939351, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 89
+  m_RootOrder: 87
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1777508239
 SpriteRenderer:
@@ -14861,7 +14616,7 @@ Transform:
   m_LocalScale: {x: 1.2939324, y: 1.2939346, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 111
+  m_RootOrder: 107
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1790320479
 SpriteRenderer:
@@ -14940,7 +14695,7 @@ Transform:
   m_LocalScale: {x: 1.293933, y: 1.2939351, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 80
+  m_RootOrder: 78
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1795022454
 SpriteRenderer:
@@ -15019,7 +14774,7 @@ Transform:
   m_LocalScale: {x: 1.2939324, y: 1.2939346, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 61
+  m_RootOrder: 59
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1803760259
 SpriteRenderer:
@@ -15132,7 +14887,7 @@ Transform:
   m_LocalScale: {x: 1.293933, y: 1.2939351, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 76
+  m_RootOrder: 74
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1842196638
 SpriteRenderer:
@@ -15211,7 +14966,7 @@ Transform:
   m_LocalScale: {x: 1.293933, y: 1.2939351, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 73
+  m_RootOrder: 71
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1866377042
 SpriteRenderer:
@@ -15448,7 +15203,7 @@ Transform:
   m_LocalScale: {x: 1.293933, y: 1.2939351, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 75
+  m_RootOrder: 73
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1906960555
 SpriteRenderer:
@@ -15527,7 +15282,7 @@ Transform:
   m_LocalScale: {x: 1.2939324, y: 1.2939346, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 129
+  m_RootOrder: 123
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1918685025
 SpriteRenderer:
@@ -15606,7 +15361,7 @@ Transform:
   m_LocalScale: {x: 1.2939324, y: 1.2939346, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 137
+  m_RootOrder: 129
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1919718030
 SpriteRenderer:
@@ -15922,7 +15677,7 @@ Transform:
   m_LocalScale: {x: 1.293933, y: 1.2939351, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 78
+  m_RootOrder: 76
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1965517456
 SpriteRenderer:
@@ -15972,85 +15727,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1983971392
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1983971393}
-  - component: {fileID: 1983971394}
-  m_Layer: 0
-  m_Name: Lampu Apill dan Trotoar_2 (7)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1983971393
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1983971392}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: -1}
-  m_LocalPosition: {x: -1089.9836, y: -56.179394, z: 0}
-  m_LocalScale: {x: 1.185056, y: 1.1850561, z: 0}
-  m_Children: []
-  m_Father: {fileID: 1396993052}
-  m_RootOrder: 114
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 270}
---- !u!212 &1983971394
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1983971392}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 1
-  m_Sprite: {fileID: 21300004, guid: 24b246ee1f62ab34683ad7369b7ca19f, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 55.62, y: 63.03}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &1988408398
 GameObject:
   m_ObjectHideFlags: 0
@@ -16080,7 +15756,7 @@ Transform:
   m_LocalScale: {x: 1.2939324, y: 1.2939346, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 108
+  m_RootOrder: 104
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1988408400
 SpriteRenderer:
@@ -16336,85 +16012,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2004078316
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2004078317}
-  - component: {fileID: 2004078318}
-  m_Layer: 0
-  m_Name: Lampu Apill dan Trotoar_2 (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2004078317
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2004078316}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: -1}
-  m_LocalPosition: {x: -601.9766, y: -57.052383, z: 0}
-  m_LocalScale: {x: 1.185056, y: 1.1850561, z: 0}
-  m_Children: []
-  m_Father: {fileID: 1396993052}
-  m_RootOrder: 49
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 270}
---- !u!212 &2004078318
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2004078316}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 1
-  m_Sprite: {fileID: 21300004, guid: 24b246ee1f62ab34683ad7369b7ca19f, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 55.62, y: 63.03}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &2017978046
 GameObject:
   m_ObjectHideFlags: 0
@@ -16444,7 +16041,7 @@ Transform:
   m_LocalScale: {x: 1.2939324, y: 1.2939346, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 131
+  m_RootOrder: 125
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2017978048
 SpriteRenderer:
@@ -16681,7 +16278,7 @@ Transform:
   m_LocalScale: {x: 1.2939324, y: 1.2939346, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 117
+  m_RootOrder: 111
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2027652821
 SpriteRenderer:
@@ -16760,7 +16357,7 @@ Transform:
   m_LocalScale: {x: 1.2939324, y: 1.2939346, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 121
+  m_RootOrder: 115
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2055365061
 SpriteRenderer:
@@ -16805,6 +16402,85 @@ SpriteRenderer:
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 27.95, y: 26.55}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!1 &2057845165
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2057845166}
+  - component: {fileID: 2057845167}
+  m_Layer: 0
+  m_Name: Lampu Apill dan Trotoar_0 (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2057845166
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2057845165}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -1645.6, y: -56, z: -0}
+  m_LocalScale: {x: 1.3822145, y: 1.3822168, z: 0}
+  m_Children: []
+  m_Father: {fileID: 858933350289800148}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &2057845167
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2057845165}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 4
+  m_Sprite: {fileID: 21300000, guid: 24b246ee1f62ab34683ad7369b7ca19f, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 7.5499997, y: 40.25}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -16924,7 +16600,7 @@ Transform:
   m_LocalScale: {x: 1.2939324, y: 1.2939346, z: 0}
   m_Children: []
   m_Father: {fileID: 1396993052}
-  m_RootOrder: 110
+  m_RootOrder: 106
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2125958646
 SpriteRenderer:
@@ -17060,6 +16736,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 858933349176776683, guid: 057e88a6978d83b47b9d3a1bbed26788,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 858933350675924456, guid: 057e88a6978d83b47b9d3a1bbed26788,
         type: 3}
       propertyPath: m_Name
@@ -17120,8 +16801,19 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 858933350851091032, guid: 057e88a6978d83b47b9d3a1bbed26788,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: -2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 057e88a6978d83b47b9d3a1bbed26788, type: 3}
+--- !u!4 &858933350289800148 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 858933350675924463, guid: 057e88a6978d83b47b9d3a1bbed26788,
+    type: 3}
+  m_PrefabInstance: {fileID: 858933350289800147}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2499682985156572140
 PrefabInstance:
   m_ObjectHideFlags: 0

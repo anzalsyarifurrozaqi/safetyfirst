@@ -38,4 +38,10 @@ public class MenuController : MonoBehaviour
     {
         SceneManager.LoadScene("Level 3");
     }
+
+    public void ClickExit()
+
+    {
+        Application.Quit();
+    }
 }
